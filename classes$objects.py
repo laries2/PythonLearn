@@ -1,8 +1,6 @@
 class Robot:
     def introduce_self(self):
         print("My name is " + self.name)
-
-
 r1 = Robot()
 r1.name = "Tom"
 r1.color = "red"
@@ -21,8 +19,5 @@ class Department:
         print("Category: " + self.category)
         print("supervisor: " + self.supervisor)
         print("Number of Members: ", self.members)
-
 d1 = Department("ict", "Hillary Bett", 88)
-
-
 d1.details()
