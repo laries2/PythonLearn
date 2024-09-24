@@ -21,3 +21,5 @@ class Department:
         print("Number of Members: ", self.members)
 d1 = Department("ict", "Hillary Bett", 88)
 d1.details()
+ 
+
