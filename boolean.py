@@ -23,3 +23,6 @@ def grant_access(ID_is_valid, has_gate_pass):
 
 access = grant_access(True, False)
 print(access)
+
+
+
